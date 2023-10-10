@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0}),exports.DEV_ENV=void 0;const dotenv_1=__importDefault(require("dotenv")),config=(dotenv_1.default.config(),process.env);exports.DEV_ENV=process.execArgv.some(e=>e.includes("ts-node")),exports.default=config;

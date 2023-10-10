@@ -1,0 +1,1 @@
+"use strict";async function default_1(e){var t=await e.nsp.to("players").fetchSockets();e.emit("set:players",t.map(e=>e.data))}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=default_1;

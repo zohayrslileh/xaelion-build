@@ -1,0 +1,9 @@
+{
+    "storagePaths": [
+        ".env",
+        "storage"
+    ],
+    "depsPaths": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,1 @@
+"use strict";async function default_1(a,t){a.data={...t,x:Math.random(),y:Math.random()},await a.join("players");t=await a.nsp.to("players").fetchSockets();a.nsp.emit("set:players",t.map(a=>a.data))}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=default_1;

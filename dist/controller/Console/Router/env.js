@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});const Json_1=__importDefault(require("#/Tools/System/Json")),coller=(0,Json_1.default)("storage/database/coller.json",{name:String(),age:Number()},{force:!0});coller.read,console.log(coller.read);

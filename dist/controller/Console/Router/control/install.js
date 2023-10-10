@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const promises_1=require("fs/promises");async function default_1(){await(0,promises_1.copyFile)("sample.env",".env"),await(0,promises_1.mkdir)("storage")}exports.default=default_1;

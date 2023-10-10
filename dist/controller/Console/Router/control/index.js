@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const control=function({route:e}){e("build",()=>require("./build")),e("backup",()=>require("./backup")),e("update",()=>require("./update")),e("install",()=>require("./install")),e("production",()=>require("./production"))};exports.default=control;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const setup=(e,t,s)=>{t.set({"X-Powered-By":"Xaelion"}),s()};exports.default=setup;
